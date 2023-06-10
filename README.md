@@ -1,9 +1,5 @@
 # Travel Website Dengan Laravel
 
-## Preview
-
-![preview img](/preview.png)
-
 ### Download Project
 
 ```bash
