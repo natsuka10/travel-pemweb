@@ -27,11 +27,11 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Title</th>
-                                        <th>Image</th>
-                                        <th>Excerpt</th>
-                                        <th>Category</th>
-                                        <th>Action</th>
+                                        <th>Judul</th>
+                                        <th>Gambar</th>
+                                        <th>Deskripsi Singkat</th>
+                                        <th>Kategori</th>
+                                        <th>Delete | Update</th>
                                     </tr>
                                 </thead>
                                 <tbody>

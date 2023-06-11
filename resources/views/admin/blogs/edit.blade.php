@@ -24,13 +24,13 @@
                             @csrf 
                             @method('put')
                             <div class="form-group row border-bottom pb-4">
-                                <label for="title" class="col-sm-2 col-form-label">Title</label>
+                                <label for="title" class="col-sm-2 col-form-label">Judul Artikel</label>
                                 <div class="col-sm-10">
                                 <input type="text" class="form-control" name="title" value="{{ old('title', $blog->title) }}" id="title" placeholder="example: 5 tips travel">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="category_id" class="col-sm-2 col-form-label">Category</label>
+                                <label for="category_id" class="col-sm-2 col-form-label">Kategori</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" name="category_id" id="category_id">
                                         @foreach($categories as $category)
@@ -40,24 +40,24 @@
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="image" class="col-sm-2 col-form-label">Image</label>
+                                <label for="image" class="col-sm-2 col-form-label">Gambar</label>
                                 <div class="col-sm-10">
                                     <input type="file" name="image" class="form-control" id="image">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="excerpt" class="col-sm-2 col-form-label">Excerpt</label>
+                                <label for="excerpt" class="col-sm-2 col-form-label">Deskripsi Singkat</label>
                                 <div class="col-sm-10">
                                     <textarea class="form-control" name="excerpt" id="excerpt" cols="30" rows="5">{{ old('excerpt', $blog->excerpt) }}</textarea>
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="description" class="col-sm-2 col-form-label">Description</label>
+                                <label for="description" class="col-sm-2 col-form-label">Deskripsi</label>
                                 <div class="col-sm-10">
                                     <textarea class="form-control" name="description" id="description" cols="30" rows="7">{{ old('description', $blog->description) }}</textarea>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-success">Save</button>
+                            <button type="submit" class="btn btn-success">Simpan</button>
                         </form>
                     </div>
                 </div>

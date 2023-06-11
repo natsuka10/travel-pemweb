@@ -47,3 +47,6 @@ Route::get('contact', function() {
 })->name('contact');
 // booking
 Route::post('booking', [App\Http\Controllers\BookingController::class, 'store'])->name('booking.store');
+
+//Login
+// Route::post('loginp', [\App\Http\Controllers\LoginController::class, 'index'])->name('loginp');

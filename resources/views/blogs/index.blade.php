@@ -7,15 +7,15 @@
           <div class="swiper-wrapper">
             <section class="islands swiper-slide">
               <img
-                src="{{ asset('frontend/assets/img/blog-hero.jpg') }}"
+                src="{{ asset('frontend/assets/img/Overlay-2.jpg') }}"
                 alt=""
                 class="islands__bg"
               />
 
               <div class="islands__container container">
                 <div class="islands__data">
-                  <h2 class="islands__subtitle">Our</h2>
-                  <h1 class="islands__title">Blog</h1>
+                  <h2 class="islands__subtitle">Jelajah</h2>
+                  <h1 class="islands__title">Rekomendasi Wisata</h1>
                 </div>
               </div>
             </section>

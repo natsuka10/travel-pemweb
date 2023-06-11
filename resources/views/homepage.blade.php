@@ -19,15 +19,14 @@
                             style="z-index: 99; position: relative"
                         >
                             <h2 class="islands__subtitle">
-                                Explore
+                                Jelajah
                             </h2>
                             <h1 class="islands__title">
-                                Wonderfull World
+                                Beautiful Malang
                             </h1>
                             <p class="islands__description">
-                                It's the perfect time travel and
-                                enjoy the <br />
-                                beauty of the world.
+                                Nikmati berbagai destinasi wisata di<br />
+                                Malang Raya.
                             </p>
                         </div>
                     </div>
@@ -109,15 +108,15 @@
             <div class="value__orbe"></div>
 
             <div class="value__img">
-                <img src="{{ asset('frontend/assets/img/team.jpg') }}" alt="" />
+                <img src="{{ asset('frontend/assets/img/bedengan.jpg') }}" alt="" />
             </div>
         </div>
 
         <div class="value__content">
             <div class="value__data">
-                <span class="section__subtitle">Why Choose Us</span>
+                <span class="section__subtitle">Kenapa harus Malang?</span>
                 <h2 class="section__title">
-                    Experience That We Promise To You
+                    Apa saja yang ada di Malang?
                 </h2>
                 <p class="value__description">
                     We always ready to serve by providing the best

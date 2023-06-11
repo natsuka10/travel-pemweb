@@ -19,15 +19,13 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}" />
         @stack('style-alt')
-        <title>Travel Website - ypcode</title>
+        <title>Beautiful Malang</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="{{ route('homepage') }}" class="nav__logo"
-                    >G<i class="bx bxs-map"></i> TRAVEL</a
-                >
+                <a class="navbar-brand" href="{{ route('homepage') }}"><img src="https://www.pikpng.com/pngl/b/141-1417435_beautiful-malang-png-clipart.png" alt="logo" style="width: 100px;"></a>
 
                 <div class="nav__menu">
                     <ul class="nav__list">
@@ -40,13 +38,13 @@
                         <li class="nav__item">
                             <a href="{{ route('travel_package.index') }}" class="nav__link {{ request()->is('travel-packages') || request()->is('travel-packages/*')  ? ' active-link' : '' }}">
                                 <i class="bx bx-building-house"></i>
-                                <span>Package Travel</span>
+                                <span>Destinasi Wisata</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="{{ route('blog.index') }}" class="nav__link {{ request()->is('blogs') || request()->is('blogs/*')  ? ' active-link' : '' }}">
                                 <i class="bx bx-award"></i>
-                                <span>Blog</span>
+                                <span>Rekomendasi Wisata</span>
                             </a>
                         </li>
                         <li class="nav__item">
@@ -61,7 +59,7 @@
                 <!-- theme -->
                 <i class="bx bx-moon change-theme" id="theme-button"></i>
 
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=088111444&text=I want to booking" class="button nav__button">Booking Now</a>
+                <a target="_blank" href="/login" class="button nav__button">Login</a>
             </nav>
         </header>
 
@@ -75,11 +73,11 @@
             <div class="footer__container container grid">
                 <div>
                     <a href="{{ route('homepage') }}" class="footer__logo">
-                        G<i class="bx bxs-map"></i> TRAVEL
+                        <img src="https://www.pikpng.com/pngl/b/141-1417435_beautiful-malang-png-clipart.png" alt="logo" style="width: 100px;">
                     </a>
                     <p class="footer__description">
-                        Our vision is to help people find the <br />
-                        best places to travel with high security
+                        Nikmati berbagai destinasi wisata di <br>
+                        Malang Raya.
                     </p>
                 </div>
 
@@ -153,7 +151,7 @@
 
             <div class="footer__info container">
                 <span class="footer__copy">
-                    &#169; ypcode. All rigths reserved
+                    &#169;All rigths reserved
                 </span>
                 <div class="footer__privacy">
                     <a href="#">Terms & Agreements</a>
