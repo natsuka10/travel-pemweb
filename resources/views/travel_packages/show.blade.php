@@ -8,13 +8,15 @@
           @foreach($travel_package->galleries as $gallery)
             <section class="islands swiper-slide">
               <img src="{{ Storage::url($gallery->images) }}" alt="" class="islands__bg" />
-
-              <div class="islands__container container">
-                <div class="islands__data">
-                  <h2 class="islands__subtitle">Explore</h2>
-                  <h1 class="islands__title">{{ $gallery->name }}</h1>
+              <div class="bg__overlay">
+                <div class="islands__container container">
+                  <div class="islands__data">
+                    <h2 class="islands__subtitle">Explore</h2>
+                    <h1 class="islands__title">{{ $gallery->name }}</h1>
+                  </div>
                 </div>
               </div>
+              
             </section>
           @endforeach
           </div>
@@ -68,21 +70,24 @@
       <section class="section" id="popular">
         <div class="container">
           <span class="section__subtitle" style="text-align: center"
-            >Package Travel</span
+            >Mungkin kamu suka ini</span
           >
           <h2 class="section__title" style="text-align: center">
-            The Best Tour For You
+            Destinasi Wisata Lainnya
           </h2>
 
           <div class="popular__all">
             @foreach($travel_packages as $travel_package)
             <article class="popular__card">
               <a href="{{ route('travel_package.show', $travel_package->slug) }}">
-                <img
+                <div class="popular__img">
+                  <img
                   src="{{ Storage::url($travel_package->galleries->first()->images) }}"
                   alt=""
                   class="popular__img"
                 />
+                </div>
+                
                 <div class="popular__data">
                   <h2 class="popular__price"><span>$</span>{{ number_format($travel_package->price,2) }}</h2>
                   <h3 class="popular__title">{{ $travel_package->location }}</h3>

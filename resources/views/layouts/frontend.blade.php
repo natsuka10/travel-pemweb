@@ -10,6 +10,9 @@
             rel="stylesheet"
         />
 
+        <!--=============== Font Awesome ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
         <!--=============== SWIPER CSS ===============-->
         <link
             rel="stylesheet"
@@ -67,7 +70,6 @@
         <main class="main">
             @yield('content')
         </main>
-
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
             <div class="footer__container container grid">

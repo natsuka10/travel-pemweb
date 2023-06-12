@@ -6,7 +6,7 @@
         <div class="swiper-container gallery-top">
           <div class="swiper-wrapper">
             <section class="islands swiper-slide">
-              <img src="{{ asset('frontend/assets/img/bali.jpg') }}" alt="" class="islands__bg" />
+              <img src="{{ asset('frontend/assets/img/hero2.jpg') }}" alt="" class="islands__bg" />
 
               <div class="islands__container container">
                 <div class="islands__data">
@@ -37,7 +37,7 @@
                     class="popular__img"
                     />
                     <div class="popular__data">
-                    <h2 class="popular__price"><span>$</span>{{ number_format($travel_package->price,2) }}</h2>
+                    <h2 class="popular__price"><span>Rp </span>{{ number_format($travel_package->price,0) }}</h2>
                     <h3 class="popular__title">{{ $travel_package->location }}</h3>
                     <p class="popular__description">{{ $travel_package->type }}</p>
                     </div>
