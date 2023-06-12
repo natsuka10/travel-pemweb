@@ -47,19 +47,8 @@
                                 <span>Rekomendasi Wisata</span>
                             </a>
                         </li>
-                        <li class="nav__item">
-                            <a href="{{ route('contact') }}" class="nav__link {{ request()->is('contact') ? ' active-link' : '' }}">
-                                <i class="bx bx-phone"></i>
-                                <span>Contact</span>
-                            </a>
-                        </li>
                     </ul>
                 </div>
-
-                <!-- theme -->
-                <i class="bx bx-moon change-theme" id="theme-button"></i>
-
-                <a target="_blank" href="/login" class="button nav__button">Login</a>
             </nav>
         </header>
 
