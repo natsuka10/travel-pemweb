@@ -266,6 +266,11 @@ body.dark-theme {
   color: var(--first-color);
 }
 
+.nav__list li{
+  display: flex;
+  align-items: center;
+}
+
 .scroll-header .change-theme {
   color: var(--title-color);
 }
@@ -625,8 +630,8 @@ body.dark-theme {
 }
 
 .accordion-open .value__accordion-arrow i {
-  -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 /*=============== CONTACT ===============*/

@@ -135,7 +135,7 @@
                             Keindahan Alam
                         </h3>
                         <div class="value__accordion-arrow">
-                            <i class="bx bxs-down-arrow"></i>
+                            <i class="bx bxs-right-arrow"></i>
                         </div>
                     </header>
 
@@ -155,7 +155,7 @@
                             Warisan Budaya
                         </h3>
                         <div class="value__accordion-arrow">
-                            <i class="bx bxs-down-arrow"></i>
+                            <i class="bx bxs-right-arrow"></i>
                         </div>
                     </header>
 
@@ -176,7 +176,7 @@
                             Wisata Kuliner
                         </h3>
                         <div class="value__accordion-arrow">
-                            <i class="bx bxs-down-arrow"></i>
+                            <i class="bx bxs-right-arrow"></i>
                         </div>
                     </header>
 
@@ -196,7 +196,7 @@
                             Pusat Pendidikan
                         </h3>
                         <div class="value__accordion-arrow">
-                            <i class="bx bxs-down-arrow"></i>
+                            <i class="bx bxs-right-arrow"></i>
                         </div>
                     </header>
 

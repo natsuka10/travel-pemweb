@@ -50,19 +50,21 @@
                                 <span>Rekomendasi Wisata</span>
                             </a>
                         </li>
+                        <a target="_blank" href="/login" class="button nav__button">Login</a>
                         <li class="nav__item">
+
+                        </li>
+                        {{-- <li class="nav__item">
                             <a href="{{ route('contact') }}" class="nav__link {{ request()->is('contact') ? ' active-link' : '' }}">
                                 <i class="bx bx-phone"></i>
                                 <span>Contact</span>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
 
                 <!-- theme -->
-                <i class="bx bx-moon change-theme" id="theme-button"></i>
-
-                <a target="_blank" href="/login" class="button nav__button">Login</a>
+                {{-- <i class="bx bx-moon change-theme" id="theme-button"></i> --}}
             </nav>
         </header>
 
@@ -85,51 +87,14 @@
 
                 <div class="footer__content">
                     <div>
-                        <h3 class="footer__title">About</h3>
+                        <h3 class="footer__title">Navigation</h3>
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">About Us</a>
+                                <a href="/travel-package" class="footer__link">Destinasi Wisata</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Features </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">News & Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="footer__title">Company</h3>
-
-                        <ul class="footer__links">
-                            <li>
-                                <a href="#" class="footer__link"
-                                    >How We Work?
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Capital </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"> Security</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="footer__title">Support</h3>
-
-                        <ul class="footer__links">
-                            <li>
-                                <a href="#" class="footer__link">FAQs </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"
-                                    >Support center
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"> Contact Us</a>
+                                <a href="/blogs" class="footer__link">Rekomendasi Wisata</a>
                             </li>
                         </ul>
                     </div>
@@ -156,8 +121,7 @@
                     &#169;All rigths reserved
                 </span>
                 <div class="footer__privacy">
-                    <a href="#">Terms & Agreements</a>
-                    <a href="#">Privacy Policy</a>
+                    <span class="footer__copy">Made With Laravel</span>
                 </div>
             </div>
         </footer>
