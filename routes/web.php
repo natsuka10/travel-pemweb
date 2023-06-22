@@ -17,7 +17,6 @@ Auth::routes(['register' => false]);
 
 Route::group(['middleware' => ['is_admin','auth'], 'prefix' => 'admin', 'as' => 'admin.'], function() {
     Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
-
     // booking
     Route::resource('bookings', \App\Http\Controllers\Admin\BookingController::class)->only(['index', 'destroy']);
     // travel packages
@@ -48,5 +47,3 @@ Route::get('contact', function() {
 // booking
 Route::post('booking', [App\Http\Controllers\BookingController::class, 'store'])->name('booking.store');
 
-//Login
-// Route::post('loginp', [\App\Http\Controllers\LoginController::class, 'index'])->name('loginp');
